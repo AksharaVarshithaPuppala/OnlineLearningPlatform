@@ -1,3 +1,4 @@
+
 package com.example.backend;
 
 import org.springframework.web.bind.annotation.*;
@@ -5,7 +6,10 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = {
+    "http://localhost:3000",
+    "https://learnspace-frontend-m0zh.onrender.com"
+})
 public class CourseController {
 
     private final CourseRepository repository;
