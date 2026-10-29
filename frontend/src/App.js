@@ -111,7 +111,7 @@ function App() {
   const [quizFinished, setQuizFinished] = useState(false);
 
   useEffect(() => {
-    fetch("http://localhost:8080/api/courses")
+    fetch("https://learnspace-backend-9u69.onrender.com/api/courses")
       .then(res => {
         if (!res.ok) throw new Error("API error");
         return res.json();
