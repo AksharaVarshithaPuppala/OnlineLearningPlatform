@@ -1,0 +1,14 @@
+# React frontend
+frontend/node_modules/
+frontend/build/
+
+# Java backend
+backend/target/
+
+# Secrets
+.env
+.env.*
+
+# IDE files
+.vscode/
+.idea/
