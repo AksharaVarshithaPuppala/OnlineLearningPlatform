@@ -496,7 +496,29 @@ function App() {
             </section>
           </>
         )}
+      {page === "Dashboard" && (
+  <section className="team-section">
+    <h2>Our Team</h2>
+    <p>Meet the team behind LearnSpace.</p>
 
+    <div className="team-grid">
+      <div className="team-card">
+        <h3>P. NIVILA</h3>
+        <p>Roll No: 24251A0594</p>
+      </div>
+
+      <div className="team-card">
+        <h3>P. AKSHARA VARSHITHA</h3>
+        <p>Roll No: 24251A0596</p>
+      </div>
+
+      <div className="team-card">
+        <h3>CH. REKHA SREE</h3>
+        <p>Roll No: 24251A05C5</p>
+      </div>
+    </div>
+  </section>
+)}
         <footer>LearnSpace · Keep learning, keep growing.</footer>
       </main>
     </div>
